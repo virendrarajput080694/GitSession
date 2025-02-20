@@ -6,15 +6,14 @@ import io.cucumber.java.Before;
 
 public class Hooks {
 	
-	//comment added for job
-	//comment added for testing purpose
+	
 	@Before("@DeletePlace")
 	public void beforeScenario() throws IOException
 	{
 		
 		//Execute this code only when place id is Null.
 		//Write a code that will give you place id
-		//comment added for github testing
+		System.out.println("Hello World!!");
 		StepDefination sd = new StepDefination();
 		if(StepDefination.place_id==null)
 		{
