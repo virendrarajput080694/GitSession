@@ -21,4 +21,10 @@ public enum APIResources {
 		
 	}
 
+	APIResources11(String resource)
+	{
+		this.resource = resource;
+	}
+
+
 }
