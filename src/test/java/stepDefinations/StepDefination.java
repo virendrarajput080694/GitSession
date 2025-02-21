@@ -28,7 +28,7 @@ public class StepDefination extends Utility {
 	
 	public void testMethod2()
 	{
-		System.out.println("Hello java!!");
+		System.out.println("Hello world");
 	}
 	
 	@Given("Add place payload with {string} {string} {string}")

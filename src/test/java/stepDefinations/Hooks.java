@@ -13,11 +13,7 @@ public class Hooks {
 		
 		//Execute this code only when place id is Null.
 		//Write a code that will give you place id
-<<<<<<< HEAD
-=======
-		System.out.println("Hello Java!!");
-		System.out.println("testing - git");
->>>>>>> 4fd33d3b11af282e5c495c35821789c22eeaab32
+
 		StepDefination sd = new StepDefination();
 		if(StepDefination.place_id==null)
 		{
@@ -27,11 +23,4 @@ public class Hooks {
 		}
 		
 	}
-	
-	
-	public void testMethod()
-	{
-		System.out.println("Hello world");
-	}
-
 }
