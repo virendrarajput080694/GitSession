@@ -20,6 +20,13 @@ public class Hooks {
 		sd.user_calls_with_http_request("AddPlaceAPI", "POST");
 		sd.verify_place_id_created_maps_to_using("Rajput", "GetPlaceAPI");
 		}
+		
+	}
+	
+	
+	public void testMethod()
+	{
+		System.out.println("Hello world");
 	}
 
 }

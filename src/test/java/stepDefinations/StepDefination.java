@@ -26,6 +26,11 @@ public class StepDefination extends Utility {
 	TestDataBuild data = new TestDataBuild();
 	static String place_id;
 	
+	public void testMethod2()
+	{
+		System.out.println("Hello java!!");
+	}
+	
 	@Given("Add place payload with {string} {string} {string}")
 	public void add_place_payload_with(String name, String language, String address) throws IOException {
 		
