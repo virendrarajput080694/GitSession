@@ -54,4 +54,14 @@ public class Utility {
 		
 	}
 
+public String getJsonPath1(Response response, String key)
+	{
+		
+		String resp = response.asString();
+		JsonPath js = new JsonPath(resp);
+		return js.get(key).toString();
+		
+	}
+
+
 }
