@@ -54,4 +54,36 @@ public class Utility {
 		
 	}
 
+public String getJsonPath1(Response response, String key)
+	{
+		
+		String resp = response.asString();
+		JsonPath js = new JsonPath(resp);
+		return js.get(key).toString();
+		
+	}
+
+public void twitter3()
+{
+	
+	System.out.println("test 3");
+	
+}
+
+public void twitter()
+{
+	
+	System.out.println("test 1");
+	
+}
+
+
+public void twitter2()
+{
+	
+	System.out.println("test 2");
+	
+}
+
+
 }

@@ -35,5 +35,10 @@ public class TestDataBuild {
 	{
 		return "{\r\n    \"place_id\":\""+placeid+"\"\r\n}";
 	}
+	
+	public void facebook()
+	{
+		System.out.println("Hello World!!");
+	}
 
 }
